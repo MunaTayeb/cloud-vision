@@ -17,7 +17,11 @@ import SwiftyJSON
 
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
     let imagePicker = UIImagePickerController()
+    
+    
+    
     let session = URLSession.shared
     
     @IBOutlet weak var imageView: UIImageView!
